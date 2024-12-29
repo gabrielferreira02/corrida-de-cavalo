@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.config-aposta {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+}
+section {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 350px;
+    background-color: green;
+}
+
+section div {
+    height: 64px;
+    border: 1px solid transparent;
+    border-bottom-color: #fff;
+    position: relative;
+}
+
+section div img {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.value {
+    border: none;
+    padding: 8px 15px;
+    background-color: gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.value::placeholder {
+    color: #fff;
+}
+
+#select {
+    border: none;
+    padding: 8px 15px;
+    background-color: gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+@media (max-width: 450px) {
+    section {
+        width: 95%;
+    }
+
+    section div img {
+        width: 50px;
+    }
+
+    .config-aposta {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.info {
+    margin: 20px auto 5px auto;
+    text-align: center;
+}
