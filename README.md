@@ -1,5 +1,6 @@
 # Corrida de cavalos
 
+- Preview do projeto em: https://corridacavalo.netlify.app
 - Simples aplicação em <strong>html</strong>, <strong>css</strong>, <strong>javascript</strong> que simula uma aposta de corrida em cavalos mantendo o saldo atual do jogador.
 - O saldo nunca fica negativo, sempre retorna a 0 se o jogador perde tudo
 
